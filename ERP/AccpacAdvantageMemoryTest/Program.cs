@@ -9,6 +9,10 @@ namespace AccpacAdvantageMemoryTest
 {
     class Program
     {
+        /// <summary>
+        /// This comment added only in module branch.
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             // Change in the development branch
@@ -79,6 +83,11 @@ namespace AccpacAdvantageMemoryTest
             Console.ReadLine();
         }
 
+        /// <summary>
+        /// Added this comment in module branch.
+        /// </summary>
+        /// <param name="iteration"></param>
+        /// <param name="disposeObjects"></param>
         private static void ExecuteCS0001Repository(int iteration, int disposeObjects)
         {
             try
