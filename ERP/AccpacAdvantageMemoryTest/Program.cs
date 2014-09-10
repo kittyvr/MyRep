@@ -79,6 +79,11 @@ namespace AccpacAdvantageMemoryTest
             Console.ReadLine();
         }
 
+        /// <summary>
+        /// Frmework branch added the comment here
+        /// </summary>
+        /// <param name="iteration"></param>
+        /// <param name="disposeObjects"></param>
         private static void ExecuteCS0001Repository(int iteration, int disposeObjects)
         {
             try
